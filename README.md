@@ -1,10 +1,9 @@
-# textbrowser
+# Squirrel-Navigator
  A simple text-based Browser with browse-back functionality
 
 ## Files
 * requirements.txt
-* textbrowser.py
-* textbrowser.gif
+* browser.py
 * README.md
 * LICENSE
 
@@ -21,9 +20,7 @@ This file is designed for use from the command line.
 * If there's warning for all of these packages, install them with the command `pip install -r requirements.txt`
 * Alternatively, install only the unavailable ones with `pip install modulename` where modulename is colorama for example.
 
-* Watch `textbrowser.gif` for a brief intro.
-
-Now type: `python textbrowser.py`
+Now type: `python browser.py`
 
 Once you run the file, it will display how to pass parameters.
 
@@ -31,16 +28,9 @@ Once you run the file, it will display how to pass parameters.
 ## Contributing
 Have something to add?
 
-Propose changes to this repo via fork (makes a copy), modify the content, and create PR (Pull requests).
+Propose changes to this repo via fork (makes a copy), modify the content, and create a Pull request.
 
-I will be happy to look into it or grant collaborator access.
-
-## Comments
-Insights from a different set of eyes are important to me.
-
-I appreciate comments, big or small.
 
 ## Meta
-URL: [github](https://github.com/veena-LINE/textbrowser)
+URL: [github](https://github.com/squirrelcom/Squirrel-Navigator)
 
-Distributed under the MIT License. See [MIT License](https://choosealicense.com/licenses/mit/) for more information.
