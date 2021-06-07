@@ -1,5 +1,5 @@
 # Squirrel-Navigator
- A simple text-based Browser with browse-back functionality
+ A private and secure text-based Browser
 
 ## Files
 * requirements.txt
