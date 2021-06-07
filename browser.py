@@ -8,7 +8,7 @@ from colorama import init, Fore, deinit
 
 
 class Browser:
-    """ A simple Text-based Browser"""
+    """ Squirrel-Navigator"""
 
     def __init__(self):
         self.__ENCODE = 'utf-8'
@@ -138,7 +138,7 @@ class Browser:
     def usage():
         print(f'\n'
               f'{Fore.GREEN}'
-              f'                Simple Text-based BROWSER                  '
+              f'                  Squirrel-Navigator v0.1 alpha                  '
               f'{Fore.RESET}\n\n'
               'Usage:\n'
               f'1:    >>> {Fore.GREEN}python browser.py directory_name_existing_or_new\n'
@@ -148,10 +148,10 @@ class Browser:
               f'3:    >>> > {Fore.GREEN}hostname_without_dotcom_or_dotorg_or_dotanything'
               f'{Fore.RESET}\n'
               f'4:    >>> > {Fore.GREEN}back\n'
-              f'            {Fore.RESET}(just type back to access browsing history)\n'
+              f'            {Fore.RESET}(type back to access browsing history)\n'
               f'5:    >>> > {Fore.GREEN}exit{Fore.RESET}\n'
               f'            Text in {Fore.BLUE}blue{Fore.RESET}'
-              f' are hyperlinks on the actual website.'
+              f' are hyperlinks on a website.'
               )
 
 
@@ -168,5 +168,5 @@ if __name__ == '__main__':
                 continue
             browse.browse_url()
         except requests.exceptions.ConnectionError:
-            print(f'{Fore.MAGENTA}Unable to fetch {browse.user_input} (Have you checked the URL?)')
+            print(f'{Fore.MAGENTA}Unable to fetch {browse.user_input} (Squirrel-Navigator cannot locate that URL?)')
     deinit()
